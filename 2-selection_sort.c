@@ -6,16 +6,16 @@
  *
  * @array: array to sort
  * @size: size of array
- */ 
+ */
 void selection_sort(int *array, size_t size)
 {
 	size_t i, j;
 	int idx = 0, min, tmp, swap;
 
-	if (!array || size <2)
+	if (!array || size < 2)
 		return;
 
-	for (i =0; i < size - 1; i++)
+	for (i = 0; i < size - 1; i++)
 	{
 		min = array[i];
 		swap = 0;

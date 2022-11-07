@@ -4,7 +4,7 @@ int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
 
 /**
- * omuto_partition - Order a subset of an array of integers according to
+ * lomuto_partition - Order a subset of an array of integers according to
  * the lomuto partition scheme
  *
  * @array: The array of integers.
